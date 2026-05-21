@@ -32,7 +32,7 @@ class RankingQuery:
         elif days == 'YESTERDAY':
             date_filter = "DATE(create_at) = DATE_SUB(CURRENT_DATE, INTERVAL 1 DAY)"
         else:
-            date_filter = f"create_at >= DATE_SUB(CURRENT_TIMESTAMP, INTERVAL {days} DAY)"
+            date_filter = f"create_at >= DATE_SUB(CURRENT_TIMESTAMP, INTERVAL {int(days)} DAY)"
 
         # 构建查询语句
         if keywords:
