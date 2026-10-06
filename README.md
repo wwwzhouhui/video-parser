@@ -470,7 +470,7 @@ A: 在 `src/downloaders/` 下创建新的下载器类，继承 `BaseDownloader` 
 
 欢迎加入技术交流群，分享你的使用心得和反馈建议：
 
-![技术交流群](https://mypicture-1258720957.cos.ap-nanjing.myqcloud.com/image-20260927104256287.png)
+![技术交流群](https://mypicture-1258720957.cos.ap-nanjing.myqcloud.com/Obsidian/20261006103418_155_9.jpg)
 
 ---
 
